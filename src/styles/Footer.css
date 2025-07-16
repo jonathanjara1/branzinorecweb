@@ -1,0 +1,23 @@
+/* src/components/styles/Footer.css */
+footer {
+  padding: 20px;
+  position: relative;
+  z-index: 2;
+  text-align: center;
+}
+
+.spotify-logo {
+  height: 40px;
+  width: auto;
+  transition: transform 0.3s ease;
+}
+
+.spotify-logo:hover {
+  transform: scale(1.1);
+}
+
+/* Ensure link has no unwanted styles */
+.spotify-link {
+  display: inline-block;
+  text-decoration: none;
+}
